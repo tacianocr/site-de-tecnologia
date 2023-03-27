@@ -1,18 +1,53 @@
 @charset "UTF-8";
 
 body {
-    width: auto;
+    font-family: Arial, Helvetica, sans-serif   
     
-    background-color: bisque;
-    text-align: center;
-
+   
 }
 
 header {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
+    width: 800px;
+    height: 100px;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    background-color: darkolivegreen;
+    bo
+   
 }
+
+
+
+
 main {
-    width: 900px;
-    height: auto;
+     
+    width: 800px;
+    height: 900px;
+
+  
+    text-align: center;
+}
+
+section {
+    width: 600px;
+    height: 800px;
+    border-top-right-radius: 2%;
+}
+
+section article {
+    background-color: rgb(4, 87, 87);
+    border-top: 1px;
+    
+}
+
+
+aside {
+    text-align: center;
+   
+    
+}
+
+footer {
+    text-align: center;
 }
